@@ -1,0 +1,57 @@
+body {
+    background-color: purple;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .bday, .luckyNo {
+    display: none;
+}
+
+.checkBtn {
+    display: none;
+} */
+
+.container {
+    height: 70vh;
+}
+
+button {
+    margin: 0 2em;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    margin: 1em 0;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.output {
+    font-size: 20px;
+    margin: 1em 0 0 0;
+}
+
+.links {
+    margin: 1em;
+    color: white;
+}
+
+.links:hover {
+    color: black;
+}
