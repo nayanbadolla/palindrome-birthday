@@ -1,5 +1,5 @@
 
-var palindromeBtn=document.querySelector('.palindromeBtn')
+// var palindromeBtn=document.querySelector('.palindromeBtn')
 var bdayDiv=document.querySelector('.bday')
 var bdayInput = document.querySelector(".bdayInput");
 var checkBtn = document.querySelector(".checkBtn");
@@ -13,8 +13,8 @@ bdayInput.addEventListener('change', function(e) {
 checkBtn.addEventListener("click", palindrome);
 
 function palindrome() {
-  if (bday==undefined) {
-    output.innerHTML="kindly enter input"
+  if (bday=="" || bday==undefined) {
+    output.innerHTML="<h3>kindly enter input</h3>"
   }
 
   else {
@@ -45,10 +45,10 @@ function palindrome() {
         }
 
         if (!isPalindrome) {
-            output.innerText = "<h3>oops...not a palindrome birthday</h3>"
+            output.innerHTML="<h3>oops...not a palindrome birthday</h3>"
         }
         else {
-            output.innerText = "<h3>yayyy...palindrome birthday</h3>";
+            output.innerHTML="<h3>yayyy...palindrome birthday</h3>"
         }
     }
   }
