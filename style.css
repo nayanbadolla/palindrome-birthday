@@ -1,7 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
-    background-color: purple;
+    /* background-color: purple; */
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header, footer {
+    padding: 2em;    
 }
 
 /* .bday, .luckyNo {
@@ -13,7 +22,8 @@ body {
 } */
 
 .container {
-    height: 70vh;
+    background-color: purple;
+    padding: 2em;
 }
 
 button {
@@ -49,9 +59,22 @@ input {
 
 .links {
     margin: 1em;
-    color: white;
+    color: black;
 }
 
 .links:hover {
-    color: black;
+    color: purple;
+}
+
+.code a {
+    color: white;
+    background-color: purple;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.code a:hover {
+    text-decoration: underline;
 }
